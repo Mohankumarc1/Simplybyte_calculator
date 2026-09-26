@@ -9,13 +9,6 @@ pipeline {
                     credentialsId: 'github-checkout-creds', // Substitute your Jenkins Credential ID
                     branch: 'main'
             }
-        }
-	stage('List File') {
-	    steps { 
-	       sh 'ls'
-	       sh 'pwd'
-	       sh 'echo "Am learing"'
-	       }
-	  }
+		}
     }
 }
