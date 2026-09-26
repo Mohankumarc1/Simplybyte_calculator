@@ -10,7 +10,7 @@ pipeline {
                     branch: 'main'
             }
         }
-	stage('List File") {
+	stage('List File') {
 	    steps { 
 	       sh 'ls'
 	       sh 'pwd'
